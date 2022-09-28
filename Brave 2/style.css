@@ -2,4 +2,56 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #00C2CB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 0 5rem;
+    display: center;
+    align-items: center;
+}
+nav .logo{
+    height: 5rem;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+section ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+section ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+section ul li a:hover{
+    text-decoration: underline;
+}
+section ul li span{
+    padding-left: 20px;
+}
+section .paragraph{
+    padding-top: 30px;
 }
