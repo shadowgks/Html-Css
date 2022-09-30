@@ -49,9 +49,6 @@ section ul li a{
 section ul li a:hover{
     text-decoration: underline;
 }
-section ul li span{
-    padding-left: 20px;
-}
 section .paragraph{
     padding-top: 30px;
 }
