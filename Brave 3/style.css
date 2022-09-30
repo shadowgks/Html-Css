@@ -13,7 +13,6 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 0 5rem 0 5rem;
-    display: center;
     align-items: center;
 }
 nav .logo{
@@ -62,7 +61,6 @@ section .paragraph{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 50px 0;
 }
@@ -105,6 +103,31 @@ section .paragraph{
 .cards .content .item{
     padding-right: 50px;
 }
-/* .content .item_content{
-    padding: 15px 0 15px 15px;
-} */
+
+/* Responsive */
+/* Mobile */
+@media screen and (max-width:768px) {
+    /* header */
+    nav{
+        display: block;
+        text-align: center;
+        height: 7rem;
+        padding: 0;
+    }
+    nav ul li{
+        padding: 0 1rem 0 1rem;
+        font-size: 13px;
+    }
+
+    /* section */
+    section{
+        text-align: center;
+    }
+    section ul li a{
+        font-size: 12px;
+    }
+    .cards .content{
+        margin: 13px auto;
+    }
+
+}
