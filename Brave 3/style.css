@@ -57,8 +57,6 @@ section .paragraph{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
     margin: 50px 0;
 }
 .cards .content{
@@ -92,8 +90,8 @@ section .paragraph{
 }
 
 .cards .content img{
-    width: 200px;
-    height: 300px;
+    width: 235px;
+    height: 320px;
     margin: 0 auto;
     display: block;
 }
