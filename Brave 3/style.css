@@ -151,3 +151,14 @@ section{
     
 
 }
+
+/* Print */
+@media print{
+    header{
+        display: none;
+    }
+    .cards .content img{
+        width: 200px;
+        height: 250px;
+    }
+}
