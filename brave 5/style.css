@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+.navBar .logo{
+    display: flex;
+    align-items: center;
+}
+.navBar .logo ul{
+    margin-left: 5rem;
+}
+.navBar .logo ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+.navBar .logo a{
+    opacity: 80%;
+}
+.logo ul i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.signUp{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 11px 20px;
+    margin-left: 15px;
+}
+/* header main */
+.main{
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    padding: 0 6rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+.main .col{
+    color: #fff;
+    width: 50%;
+}
+.main .col .searchBtn{
+    margin-top:20px;
+}
+.search{
+    padding: 10px 40px;
+    font-size: 13px;
+}
+.btn{
+    padding: 11px 20px;
+    font-size: 13px;
+    background: linear-gradient(90deg, #FB7B30 0%, #cb0d85 100%); 
+    color: #fff;
+    cursor: pointer;
+}
+.main .col img{
+    width: 100%;
+}
